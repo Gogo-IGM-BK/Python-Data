@@ -1,57 +1,74 @@
-# 🐍 Projet d'apprentissage Python pour la Science des Données 📊
+# 🔢 Introduction à Numpy
 
-Ce dépôt GitHub est dédié à l'enseignement et à la démonstration des concepts clés de Python 🐍 utilisés en science des données 📊. Il est conçu comme une ressource d'apprentissage pour ceux qui cherchent à améliorer leurs compétences en Python et en science des données, ainsi que comme un moyen pour moi de documenter et de démontrer mes compétences dans ces domaines.
+[Numpy](https://numpy.org/) est une bibliothèque Python utilisée pour le calcul numérique. Elle permet de travailler avec des données sous forme de tableaux multidimensionnels (ndarrays) et fournit une grande variété de fonctions mathématiques performantes.
 
-## 🎯 Objectif du projet
+## 💾 Installation
 
-L'objectif de ce projet est double :
+Si vous n'avez pas encore installé Numpy, vous pouvez le faire en utilisant pip :
 
-1. 📚 Mettre en avant et documenter les concepts de Python que je maîtrise, en particulier ceux utilisés en science des données, et les garder en mode formation pour une révision future.
-2. 💡 Présenter des exemples concrets de ces concepts sous forme de code et de vidéos de résultats pour aider à la compréhension.
+```bash
+pip install numpy
+```
 
-## 📁 Contenu du dépôt
+## 🧮 Travailler avec des tableaux Numpy
 
-Le dépôt est organisé en dossiers, chaque dossier correspondant à un concept clé de Python utilisé en science des données. Chaque dossier contient un fichier README décrivant le concept, un ou plusieurs fichiers de code Python démontrant le concept, et éventuellement une vidéo 🎥 montrant le code en action.
+Voici comment vous pouvez créer un tableau Numpy et effectuer des opérations de base :
 
-Voici une liste de certains des concepts que nous allons couvrir, avec des liens vers les branches correspondantes :
+```python
+import numpy as np
 
-- [Introduction à Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Introduction_Python)
-  - Variables et types de données
-  - Opérations de base
-  - Structures de contrôle : boucles et instructions conditionnelles
-  - Fonctions
-  - Modules et paquets
-- [Structures de données Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Structures-de-données-Python)
-  - Listes
-  - Tuples
-  - Dictionnaires
-  - Ensembles
-- [Programmation Orientée Objet avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python)
-  - Classes et Objets
-  - Héritage
-  - Encapsulation
-  - Polymorphisme
-- [Librairies Python pour la science des données](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science)
-  - NumPy
-  - Pandas
-  - Matplotlib
-  - Seaborn
-  - Scikit-learn
-  - TensorFlow
-- [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
-  - Matplotlib Basics
-  - Seaborn pour la visualisation statistique
-  - Plotly pour des graphiques interactifs
-  - Geopandas pour la visualisation de données géospatiales
-  - GeoViews pour la visualisation de données géospatiales interactives
+# Créer un tableau Numpy
+a = np.array([1, 2, 3, 4, 5])
 
+# Afficher le tableau
+print(a)  # Affiche : [1 2 3 4 5]
 
-## ⚙️ Comment utiliser ce dépôt
+# Effectuer des opérations mathématiques sur le tableau
+print(a + 2)  # Ajoute 2 à chaque élément : [3 4 5 6 7]
 
-Pour utiliser ce dépôt, vous pouvez le cloner sur votre machine locale ou le parcourir directement sur GitHub. Pour chaque concept, je vous recommande de lire le fichier README correspondant, puis d'examiner le code Python et de le tester vous-même. Ensuite, vous pouvez regarder la vidéo correspondante pour une démonstration du code en action.
+```
 
-## 🤝 Contribuer
+## 📊 Opérations de base avec Numpy
 
-Si vous avez des suggestions d'amélioration ou si vous constatez des erreurs, n'hésitez pas à ouvrir une issue. Les contributions sont toujours les bienvenues !
+Numpy fournit une grande variété de fonctions pour effectuer des opérations sur des tableaux, comme des opérations arithmétiques, des opérations matricielles, des opérations logiques, etc.
+
+Voici quelques exemples :
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+b = np.array([6, 7, 8, 9, 10])
+
+# Addition
+print(a + b)  # Affiche : [ 7  9 11 13 15]
+
+# Soustraction
+print(a - b)  # Affiche : [-5 -5 -5 -5 -5]
+
+# Multiplication
+print(a * b)  # Affiche : [ 6 14 24 36 50]
+
+# Division
+print(a / b)  # Affiche : [0.16666667 0.28571429 0.375 0.44444444 0.5]
+
+```
+## 🔍 Indexation et slicing avec Numpy
+
+Numpy offre des fonctionnalités puissantes pour indexer et slicer des tableaux :
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+
+# Indexation
+print(a[0])  # Affiche : 1
+
+# Slicing
+print(a[1:4])  # Affiche : [2 3 4]
+```
+
+Numpy est une bibliothèque très riche avec de nombreuses autres fonctionnalités. Assurez-vous de consulter la documentation officielle pour en savoir plus !
 
 
