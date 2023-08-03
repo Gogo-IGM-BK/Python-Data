@@ -15,7 +15,7 @@ Le dépôt est organisé en dossiers, chaque dossier correspondant à un concept
 
 Voici une liste de certains des concepts que nous allons couvrir, avec des liens vers les branches correspondantes :
 
-- [Introduction à Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/introduction-python)
+- [Introduction à Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Introduction_Python)
   - Variables et types de données
   - Opérations de base
   - Structures de contrôle : boucles et instructions conditionnelles
