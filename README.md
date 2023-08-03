@@ -68,6 +68,40 @@ print(a[0])  # Affiche : 1
 # Slicing
 print(a[1:4])  # Affiche : [2 3 4]
 ```
+## Les 30 fonctions les plus utilisées dans Numpy 
+
+| Fonction	     |Description	Exemple                                                     |                                      |
+|----------------|------------------------------------------------------------------------|--------------------------------------|
+|np.array()  	   |Crée un tableau numpy.                                                  |np.array([1, 2, 3])                   |
+|np.zeros()	     |Renvoie un tableau rempli de zéros.	                                    |np.zeros((3,3))|
+|np.ones()  	   |Renvoie un tableau rempli de uns.	                                      |np.ones((3,3))|
+|np.full()  	   |Renvoie un tableau rempli de la valeur donnée.	                        |np.full((3,3), 7)|
+|np.eye()	       |Renvoie une matrice identité de taille spécifiée.	                      |np.eye(3)|
+|np.arange()	   |Renvoie des valeurs régulièrement espacées dans un intervalle donné.	  |np.arange(0, 10, 2)|
+|np.linspace()   |Renvoie un nombre spécifié de valeurs régulièrement espacées entre deux valeurs données.	|np.linspace(0, 1, 5)|
+|np.reshape()	   |Donne une nouvelle forme à un tableau sans changer ses données.	        |np.reshape(a, (2,3))|
+|np.flatten()	   |Renvoie une copie aplatie d'un tableau donné.	                          |a.flatten()|
+|np.append()	   |Ajoute des valeurs à la fin d'un tableau.	                              |np.append(a, [1,2])|
+|np.delete()	   |Renvoie un nouveau tableau avec certains éléments supprimés.	          |np.delete(a, [1,2])|
+|np.concatenate()|Joint une séquence de tableaux le long d'un axe existant.	              |np.concatenate((a, b), axis=0)|
+|np.split()	     |Divise un tableau en plusieurs sous-tableaux.	                          |np.split(a, 3)|
+|np.add()	       |Additionne les éléments de deux tableaux.	                              |np.add(a, b)|
+|np.subtract()	 |Soustrait les éléments du deuxième tableau à partir du premier.	        |np.subtract(a, b)|
+|np.multiply()	 |Multiplie les éléments de deux tableaux.	                              |np.multiply(a, b)|
+|np.divide()	   |Divise les éléments du premier tableau par les éléments du second.	    |np.divide(a, b)|
+|np.power()	     |Elève les éléments du premier tableau à des puissances du deuxième tableau.	|np.power(a, 2)|
+|np.sqrt()	     |Renvoie la racine carrée des éléments du tableau.	                      |np.sqrt(a)|
+|np.sin(), np.cos(), np.tan()	|Fonctions trigonométriques.	                              |np.sin(a)|
+|np.log(), np.log10(), np.exp()	|Fonctions logarithmiques et exponentielles.	            |np.log(a)|
+|np.sum()	      |Calcule la somme des éléments du tableau.	                              |np.sum(a)|
+|np.mean()	    |Calcule la moyenne des éléments du tableau.	                            |np.mean(a)|
+|np.median()	  |Calcule la médiane des éléments du tableau.	                            |np.median(a)|
+|np.std()	      |Calcule l'écart-type des éléments du tableau.	                          |np.std(a)|
+|np.sort()	    |Renvoie un tableau trié.	                                                |np.sort(a)|
+|np.argmax(), np.argmin()	|Renvoient l'index de l'élément maximal/minimal d'un tableau.	  |np.argmax(a)|
+|np.unique()	  |Trouve les éléments uniques d'un tableau.	                              |np.unique(a)|
+|np.where()	    |Renvoie les indices où une condition donnée est vraie.	                  |np.where(a > 0)|
+|np.random.rand(), np.random.randint()	| Génèrent des nombres aléatoires.	              |np.random.rand(5)|
 
 Numpy est une bibliothèque très riche avec de nombreuses autres fonctionnalités. Assurez-vous de consulter la documentation officielle pour en savoir plus !
 
