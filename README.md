@@ -31,6 +31,7 @@ else:
 🔀
 ```
 
+
 ## 🎁 Fonctions
 En Python, une fonction est un bloc de code réutilisable qui effectue une action spécifique. Par exemple :
 ```python
@@ -40,8 +41,18 @@ def saluer(nom):
 saluer("Alice")
 👋
 ```
+### Fonctions Lambda
+Les fonctions lambda sont des petites fonctions anonymes. Elles peuvent prendre n'importe quel nombre d'arguments, mais peuvent seulement avoir une seule expression. Par exemple :
+```python
+x = lambda a : a + 10
+print(x(5))  # affiche 15
+
+```
+
+Dans cet exemple, `x` est une fonction lambda qui prend un argument `a` et renvoie `a + 10`. Quand nous appelons `x(5)`, elle renvoie `15`.
 
 ## 📦 Modules et paquets
+
 Un module en Python est un fichier contenant du code Python. Un paquet est une façon d'organiser les modules Python. Par exemple, vous pouvez importer le module math pour accéder à des fonctions mathématiques :
 
 ```python
