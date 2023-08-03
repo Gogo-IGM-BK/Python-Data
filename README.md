@@ -1,57 +1,79 @@
-# 🐍 Projet d'apprentissage Python pour la Science des Données 📊
+# 🧩 Programmation Orientée Objet avec Python
 
-Ce dépôt GitHub est dédié à l'enseignement et à la démonstration des concepts clés de Python 🐍 utilisés en science des données 📊. Il est conçu comme une ressource d'apprentissage pour ceux qui cherchent à améliorer leurs compétences en Python et en science des données, ainsi que comme un moyen pour moi de documenter et de démontrer mes compétences dans ces domaines.
+## 🏫 Classes et Objets
 
-## 🎯 Objectif du projet
+En Python, une classe est comme un plan pour créer des objets. Un objet est une instance d'une classe.
 
-L'objectif de ce projet est double :
+```python
+class MaClasse:
+    x = 5
 
-1. 📚 Mettre en avant et documenter les concepts de Python que je maîtrise, en particulier ceux utilisés en science des données, et les garder en mode formation pour une révision future.
-2. 💡 Présenter des exemples concrets de ces concepts sous forme de code et de vidéos de résultats pour aider à la compréhension.
+mon_objet = MaClasse()
+print(mon_objet.x)  # affiche 5
+```
+## ⬆️ Héritage
+L'héritage permet de définir une classe qui hérite de toutes les méthodes et propriétés d'une autre classe.
 
-## 📁 Contenu du dépôt
+```python
+class Personne:
+  def saluer(self):
+    print("Bonjour!")
 
-Le dépôt est organisé en dossiers, chaque dossier correspondant à un concept clé de Python utilisé en science des données. Chaque dossier contient un fichier README décrivant le concept, un ou plusieurs fichiers de code Python démontrant le concept, et éventuellement une vidéo 🎥 montrant le code en action.
+class Etudiant(Personne):
+  pass
 
-Voici une liste de certains des concepts que nous allons couvrir, avec des liens vers les branches correspondantes :
+etudiant = Etudiant()
+etudiant.saluer()  # affiche "Bonjour!"
 
-- [Introduction à Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Introduction_Python)
-  - Variables et types de données
-  - Opérations de base
-  - Structures de contrôle : boucles et instructions conditionnelles
-  - Fonctions
-  - Modules et paquets
-- [Structures de données Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Structures-de-données-Python)
-  - Listes
-  - Tuples
-  - Dictionnaires
-  - Ensembles
-- [Programmation Orientée Objet avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python)
-  - Classes et Objets
-  - Héritage
-  - Encapsulation
-  - Polymorphisme
-- [Librairies Python pour la science des données](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science)
-  - NumPy
-  - Pandas
-  - Matplotlib
-  - Seaborn
-  - Scikit-learn
-  - TensorFlow
-- [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
-  - Matplotlib Basics
-  - Seaborn pour la visualisation statistique
-  - Plotly pour des graphiques interactifs
-  - Geopandas pour la visualisation de données géospatiales
-  - GeoViews pour la visualisation de données géospatiales interactives
+```
+
+## 📦 Encapsulation
+L'encapsulation en Python est la restriction de l'accès aux méthodes et aux variables d'une classe. Cela peut être accompli en utilisant des méthodes privées et des propriétés.
+
+```python
+class Voiture:
+  def __init__(self):
+    self.__maxspeed = 200  # Ceci est une variable privée
+
+  def conduire(self):
+    print(f'Conduire à une vitesse maximale de {self.__maxspeed}')
+
+voiture = Voiture()
+voiture.conduire()
+
+```
+
+## 🔄 Polymorphisme
+Le polymorphisme est un principe de POO qui permet à une classe d'être définie de plusieurs façons. En Python, le polymorphisme est implémenté à travers les méthodes.
+
+```python
+class Chien:
+  def son(self):
+    return "ouaf ouaf"
+
+class Chat:
+  def son(self):
+    return "miaou"
+
+def faire_du_bruit(animal):
+  print(animal.son())
+
+mon_chien = Chien()
+mon_chat = Chat()
+
+faire_du_bruit(mon_chien)  # affiche "ouaf ouaf"
+faire_du_bruit(mon_chat)  # affiche "miaou"
 
 
-## ⚙️ Comment utiliser ce dépôt
+```
 
-Pour utiliser ce dépôt, vous pouvez le cloner sur votre machine locale ou le parcourir directement sur GitHub. Pour chaque concept, je vous recommande de lire le fichier README correspondant, puis d'examiner le code Python et de le tester vous-même. Ensuite, vous pouvez regarder la vidéo correspondante pour une démonstration du code en action.
 
-## 🤝 Contribuer
 
-Si vous avez des suggestions d'amélioration ou si vous constatez des erreurs, n'hésitez pas à ouvrir une issue. Les contributions sont toujours les bienvenues !
+
+
+
+
+
+
 
 
