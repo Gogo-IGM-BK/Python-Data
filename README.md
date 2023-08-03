@@ -16,9 +16,35 @@ Le dépôt est organisé en dossiers, chaque dossier correspondant à un concept
 Voici une liste de certains des concepts que nous allons couvrir, avec des liens vers les branches correspondantes :
 
 - [Introduction à Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/introduction-python)
+  - Variables et types de données
+  - Opérations de base
+  - Structures de contrôle : boucles et instructions conditionnelles
+  - Fonctions
+  - Modules et paquets
 - [Structures de données Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python)
+  - [Listes](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python/listes)
+  - [Tuples](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python/tuples)
+  - [Dictionnaires](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python/dictionnaires)
+  - [Ensembles](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python/ensembles)
+- [Programmation Orientée Objet avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python)
+  - [Classes et Objets](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python/classes-et-objets)
+  - [Héritage](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python/heritage)
+  - [Encapsulation](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python/encapsulation)
+  - [Polymorphisme](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python/polymorphisme)
 - [Librairies Python pour la science des données](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science)
+  - [NumPy](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/numpy)
+  - [Pandas](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/pandas)
+  - [Matplotlib](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/matplotlib)
+  - [Seaborn](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/seaborn)
+  - [Scikit-learn](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/scikit-learn)
+  - [TensorFlow](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/tensorflow)
 - [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
+  - [Matplotlib Basics](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/matplotlib-basics)
+  - [Seaborn pour la visualisation statistique](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/seaborn)
+  - [Plotly pour des graphiques interactifs](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/plotly)
+  - [Geopandas pour la visualisation de données géospatiales](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/geopandas)
+  - [GeoViews pour la visualisation de données géospatiales interactives](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/geoviews)
+
 
 ## ⚙️ Comment utiliser ce dépôt
 
