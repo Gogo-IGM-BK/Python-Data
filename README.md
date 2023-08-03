@@ -21,16 +21,16 @@ Voici une liste de certains des concepts que nous allons couvrir, avec des liens
   - Structures de contrôle : boucles et instructions conditionnelles
   - Fonctions
   - Modules et paquets
-- [Structures de données Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python)
-  - [Listes](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python/listes)
-  - [Tuples](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python/tuples)
-  - [Dictionnaires](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python/dictionnaires)
-  - [Ensembles](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python/ensembles)
+- [Structures de données Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Structures-de-données-Python)
+  - Listes
+  - Tuples
+  - Dictionnaires
+  - Ensembles
 - [Programmation Orientée Objet avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python)
-  - [Classes et Objets](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python/classes-et-objets)
-  - [Héritage](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python/heritage)
-  - [Encapsulation](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python/encapsulation)
-  - [Polymorphisme](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python/polymorphisme)
+  - Classes et Objets
+  - Héritage
+  - Encapsulation
+  - Polymorphisme
 - [Librairies Python pour la science des données](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science)
   - [NumPy](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/numpy)
   - [Pandas](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/pandas)
