@@ -31,8 +31,8 @@ Voici une liste de certains des concepts que nous allons couvrir, avec des liens
   - Héritage
   - Encapsulation
   - Polymorphisme
-- [Librairies Python pour la science des données](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science)
-  - NumPy
+- Librairies Python pour la science des données
+  - [NumPy](https://github.com/Gogo-IGM-BK/Python-Data/tree/NumPy)
   - Pandas
   - Matplotlib
   - Seaborn
