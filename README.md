@@ -32,18 +32,18 @@ Voici une liste de certains des concepts que nous allons couvrir, avec des liens
   - Encapsulation
   - Polymorphisme
 - [Librairies Python pour la science des données](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science)
-  - [NumPy](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/numpy)
-  - [Pandas](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/pandas)
-  - [Matplotlib](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/matplotlib)
-  - [Seaborn](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/seaborn)
-  - [Scikit-learn](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/scikit-learn)
-  - [TensorFlow](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science/tensorflow)
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - Seaborn
+  - Scikit-learn
+  - TensorFlow
 - [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
-  - [Matplotlib Basics](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/matplotlib-basics)
-  - [Seaborn pour la visualisation statistique](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/seaborn)
-  - [Plotly pour des graphiques interactifs](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/plotly)
-  - [Geopandas pour la visualisation de données géospatiales](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/geopandas)
-  - [GeoViews pour la visualisation de données géospatiales interactives](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python/geoviews)
+  - Matplotlib Basics
+  - Seaborn pour la visualisation statistique
+  - Plotly pour des graphiques interactifs
+  - Geopandas pour la visualisation de données géospatiales
+  - GeoViews pour la visualisation de données géospatiales interactives
 
 
 ## ⚙️ Comment utiliser ce dépôt
