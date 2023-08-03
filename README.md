@@ -13,6 +13,13 @@ L'objectif de ce projet est double :
 
 Le dépôt est organisé en dossiers, chaque dossier correspondant à un concept clé de Python utilisé en science des données. Chaque dossier contient un fichier README décrivant le concept, un ou plusieurs fichiers de code Python démontrant le concept, et éventuellement une vidéo 🎥 montrant le code en action.
 
+Voici une liste de certains des concepts que nous allons couvrir, avec des liens vers les branches correspondantes :
+
+- [Introduction à Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/introduction-python)
+- [Structures de données Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/structures-de-donnees-python)
+- [Librairies Python pour la science des données](https://github.com/votre-nom-utilisateur/votre-depot/tree/librairies-python-data-science)
+- [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
+
 ## ⚙️ Comment utiliser ce dépôt
 
 Pour utiliser ce dépôt, vous pouvez le cloner sur votre machine locale ou le parcourir directement sur GitHub. Pour chaque concept, je vous recommande de lire le fichier README correspondant, puis d'examiner le code Python et de le tester vous-même. Ensuite, vous pouvez regarder la vidéo correspondante pour une démonstration du code en action.
