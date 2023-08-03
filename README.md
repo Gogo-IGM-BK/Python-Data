@@ -29,11 +29,32 @@ elif x < 0:
 else:
     print("x est zéro")
 🔀
+```
 
-🎁 Fonctions
+## 🎁 Fonctions
 En Python, une fonction est un bloc de code réutilisable qui effectue une action spécifique. Par exemple :
-
+```python
 def saluer(nom):
     print(f"Bonjour, {nom}!")
 
 saluer("Alice")
+👋
+```
+
+## 📦 Modules et paquets
+Un module en Python est un fichier contenant du code Python. Un paquet est une façon d'organiser les modules Python. Par exemple, vous pouvez importer le module math pour accéder à des fonctions mathématiques :
+
+```python
+import math
+print(math.sqrt(16))  # affiche 4.0
+
+➗
+```
+
+
+
+
+
+
+
+
