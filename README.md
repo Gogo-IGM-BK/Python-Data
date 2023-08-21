@@ -14,7 +14,73 @@ L'objectif de ce projet est double :
 Le dépôt est organisé en dossiers, chaque dossier correspondant à un concept clé de Python utilisé en science des données. Chaque dossier contient un fichier README décrivant le concept, un ou plusieurs fichiers de code Python démontrant le concept, et éventuellement une vidéo 🎥 montrant le code en action.
 
 Voici une liste de certains des concepts que nous allons couvrir, avec des liens vers les branches correspondantes :
+```mermaid
+graph TD
+    A[Python pour l'analyse de données]
+    B[Introduction à Python]
+    C[Structures de données Python]
+    D[Programmation Orientée Objet avec Python]
+    E[Librairies Python pour la science des données]
+    F[Visualisation des données avec Python]
 
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    A --> F
+
+    B1[Variables et types de données]
+    B2[Opérations de base]
+    B3[Structures de contrôle]
+    B4[Fonctions]
+    B5[Modules et paquets]
+    B --> B1
+    B --> B2
+    B --> B3
+    B --> B4
+    B --> B5
+
+    C1[Listes]
+    C2[Tuples]
+    C3[Dictionnaires]
+    C4[Ensembles]
+    C --> C1
+    C --> C2
+    C --> C3
+    C --> C4
+
+    D1[Classes et Objets]
+    D2[Héritage]
+    D3[Encapsulation]
+    D4[Polymorphisme]
+    D --> D1
+    D --> D2
+    D --> D3
+    D --> D4
+
+    E1[NumPy]
+    E2[Pandas]
+    E3[Matplotlib]
+    E4[Seaborn]
+    E5[TensorFlow]
+    E --> E1
+    E --> E2
+    E --> E3
+    E --> E4
+    E --> E5
+
+    F1[Matplotlib Basics]
+    F2[Seaborn pour la visualisation statistique]
+    F3[Plotly pour des graphiques interactifs]
+    F4[Geopandas pour la visualisation de données géospatiales]
+    F5[GeoViews pour la visualisation de données géospatiales interactives]
+    F --> F1
+    F --> F2
+    F --> F3
+    F --> F4
+    F --> F5
+
+```
 - [Introduction à Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Introduction_Python)
   - Variables et types de données
   - Opérations de base
