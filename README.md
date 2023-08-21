@@ -35,7 +35,7 @@ Voici une liste de certains des concepts que nous allons couvrir, avec des liens
   - [NumPy](https://github.com/Gogo-IGM-BK/Python-Data/tree/NumPy)
   - [Pandas](https://github.com/Gogo-IGM-BK/Python-Data/blob/Pandas/README.md)
   - [Matplotlib](https://github.com/Gogo-IGM-BK/Python-Data/tree/Matplotlib)
-  - Seaborn
+  - [Seaborn](https://github.com/Gogo-IGM-BK/Python-Data/blob/Seaborn)
   - Scikit-learn
   - TensorFlow
 - [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
