@@ -4,7 +4,9 @@ GeoViews est une bibliothèque Python qui facilite la création de visualisation
 
 ### 📘 Résumé :
 
-- 🖼 **Graphiques Géospatiaux**: GeoViews prend en charge de nombreux types de données géospatiales pour la visualisation, y compris les raster, les contours, les points, les lignes, les polygones et les vecteurs.
+- 🖼 **Graphiques Géospatiaux**:
+
+  GeoViews prend en charge de nombreux types de données géospatiales pour la visualisation, y compris les raster, les contours, les points, les lignes, les polygones et les vecteurs.
 - 🔗 **Intégration avec d'autres bibliothèques**: Se combine parfaitement avec d'autres outils comme HoloViews, Bokeh et CartoPy pour créer des visualisations interactives avancées.
 - 🔄 **Interactivité**: Profitez des widgets intégrés pour explorer dynamiquement les données géospatiales multidimensionnelles.
 - 🌐 **Projections**: Changez facilement entre différentes projections cartographiques sans avoir à retraiter vos données.
