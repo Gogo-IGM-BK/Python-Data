@@ -1,57 +1,34 @@
-# 🐍 Projet d'apprentissage Python pour la Science des Données 📊
+## 🎨 Seaborn
 
-Ce dépôt GitHub est dédié à l'enseignement et à la démonstration des concepts clés de Python 🐍 utilisés en science des données 📊. Il est conçu comme une ressource d'apprentissage pour ceux qui cherchent à améliorer leurs compétences en Python et en science des données, ainsi que comme un moyen pour moi de documenter et de démontrer mes compétences dans ces domaines.
+Seaborn est une bibliothèque de visualisation de données en Python basée sur Matplotlib. Elle offre une interface de haut niveau pour créer des graphiques statistiques attrayants et est particulièrement adaptée pour visualiser des dataframes de Pandas.
 
-## 🎯 Objectif du projet
+### 📘 Résumé :
 
-L'objectif de ce projet est double :
+- 🌈 **Thèmes et Styles**: Seaborn fournit des thèmes prédéfinis qui améliorent l'esthétique et la lisibilité des graphiques par rapport à Matplotlib.
+- 📊 **Graphiques Statistiques**: Avec Seaborn, il est facile de créer des graphiques complexes tels que des matrices de corrélation, des graphiques en violon et des diagrammes en boîte.
+- 💡 **Facilité d'utilisation**: Seaborn s'intègre parfaitement avec les DataFrames de Pandas, simplifiant la visualisation des données.
+- 🎚 **Personnalisation**: Bien que Seaborn soit plus abstrait que Matplotlib, il offre toujours une grande personnalisation pour ceux qui souhaitent peaufiner leurs visualisations.
+- 🌐 **Extension**: Utilise Matplotlib sous le capot, ce qui permet une combinaison fluide des fonctionnalités des deux bibliothèques.
 
-1. 📚 Mettre en avant et documenter les concepts de Python que je maîtrise, en particulier ceux utilisés en science des données, et les garder en mode formation pour une révision future.
-2. 💡 Présenter des exemples concrets de ces concepts sous forme de code et de vidéos de résultats pour aider à la compréhension.
+### 🚀 Exemples d'utilisation :
 
-## 📁 Contenu du dépôt
+1. **Diagramme en barres**:
+```python
+import seaborn as sns
 
-Le dépôt est organisé en dossiers, chaque dossier correspondant à un concept clé de Python utilisé en science des données. Chaque dossier contient un fichier README décrivant le concept, un ou plusieurs fichiers de code Python démontrant le concept, et éventuellement une vidéo 🎥 montrant le code en action.
-
-Voici une liste de certains des concepts que nous allons couvrir, avec des liens vers les branches correspondantes :
-
-- [Introduction à Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Introduction_Python)
-  - Variables et types de données
-  - Opérations de base
-  - Structures de contrôle : boucles et instructions conditionnelles
-  - Fonctions
-  - Modules et paquets
-- [Structures de données Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Structures-de-données-Python)
-  - Listes
-  - Tuples
-  - Dictionnaires
-  - Ensembles
-- [Programmation Orientée Objet avec Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Programmation_Orientée_Objet_Python)
-  - Classes et Objets
-  - Héritage
-  - Encapsulation
-  - Polymorphisme
-- Librairies Python pour la science des données
-  - [NumPy](https://github.com/Gogo-IGM-BK/Python-Data/tree/NumPy)
-  - [Pandas](https://github.com/Gogo-IGM-BK/Python-Data/blob/Pandas/README.md)
-  - Matplotlib
-  - Seaborn
-  - Scikit-learn
-  - TensorFlow
-- [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
-  - Matplotlib Basics
-  - Seaborn pour la visualisation statistique
-  - Plotly pour des graphiques interactifs
-  - Geopandas pour la visualisation de données géospatiales
-  - GeoViews pour la visualisation de données géospatiales interactives
-
-
-## ⚙️ Comment utiliser ce dépôt
-
-Pour utiliser ce dépôt, vous pouvez le cloner sur votre machine locale ou le parcourir directement sur GitHub. Pour chaque concept, je vous recommande de lire le fichier README correspondant, puis d'examiner le code Python et de le tester vous-même. Ensuite, vous pouvez regarder la vidéo correspondante pour une démonstration du code en action.
-
-## 🤝 Contribuer
-
-Si vous avez des suggestions d'amélioration ou si vous constatez des erreurs, n'hésitez pas à ouvrir une issue. Les contributions sont toujours les bienvenues !
-
-
+tips = sns.load_dataset("tips")
+sns.barplot(x="day", y="total_bill", data=tips)
+```
+2. **🎻 Graphique en violon**:
+```python
+sns.violinplot(x="day", y="total_bill", data=tips, palette="pastel")
+```
+3. **🔥 Carte thermique (heatmap)**:
+```python
+corr = tips.corr()
+sns.heatmap(corr, annot=True, cmap="coolwarm")
+```
+4. **📦 Diagramme en boîte (box plot)**:
+```python
+sns.boxplot(x="day", y="total_bill", hue="sex", data=tips, palette="muted")
+```
