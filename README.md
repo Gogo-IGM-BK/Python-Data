@@ -33,7 +33,7 @@ Voici une liste de certains des concepts que nous allons couvrir, avec des liens
   - Polymorphisme
 - Librairies Python pour la science des données
   - [NumPy](https://github.com/Gogo-IGM-BK/Python-Data/tree/NumPy)
-  - Pandas
+  - [Pandas](https://github.com/Gogo-IGM-BK/Python-Data/blob/Pandas/README.md)
   - Matplotlib
   - Seaborn
   - Scikit-learn
