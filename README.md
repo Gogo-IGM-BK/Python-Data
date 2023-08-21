@@ -26,7 +26,7 @@ Voici une liste de certains des concepts que nous allons couvrir, avec des liens
   - Tuples
   - Dictionnaires
   - Ensembles
-- [Programmation Orientée Objet avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python)
+- [Programmation Orientée Objet avec Python]([https://github.com/votre-nom-utilisateur/votre-depot/tree/poo-python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Programmation_Orient%C3%A9e_Objet_Python))
   - Classes et Objets
   - Héritage
   - Encapsulation
