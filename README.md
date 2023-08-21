@@ -5,15 +5,15 @@ Matplotlib est une bibliothèque de visualisation de données en Python qui offr
 ### 📘 Résumé :
 
 - 📈 **Graphiques Basiques**:
-Vous pouvez créer des diagrammes à barres, des histogrammes, des diagrammes à secteurs, des nuages de points, et bien plus encore.
+  Vous pouvez créer des diagrammes à barres, des histogrammes, des diagrammes à secteurs, des nuages de points, et bien plus encore.
 - 🖌 **Personnalisation**:
-Chaque aspect du graphique est personnalisable : couleurs, légendes, titres, axes, etc.
+  Chaque aspect du graphique est personnalisable : couleurs, légendes, titres, axes, etc.
 - 📏 **Contrôle des Axes**:
-Définissez les limites, les étiquettes, et le style de vos axes pour mieux mettre en valeur vos données.
+  Définissez les limites, les étiquettes, et le style de vos axes pour mieux mettre en valeur vos données.
 - 🌐 **Intégration**:
-Intégration facile avec d'autres bibliothèques comme Pandas pour visualiser directement les dataframes.
+  Intégration facile avec d'autres bibliothèques comme Pandas pour visualiser directement les dataframes.
 - 📄 **Export**:
-Exportez vos graphiques sous différents formats (PNG, PDF, SVG, etc.) pour les utiliser dans des présentations, des articles ou des sites web.
+  Exportez vos graphiques sous différents formats (PNG, PDF, SVG, etc.) pour les utiliser dans des présentations, des articles ou des sites web.
 
 ### 🚀 Exemples d'utilisation :
 
