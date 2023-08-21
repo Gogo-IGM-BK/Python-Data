@@ -36,14 +36,13 @@ Voici une liste de certains des concepts que nous allons couvrir, avec des liens
   - [Pandas](https://github.com/Gogo-IGM-BK/Python-Data/blob/Pandas/README.md)
   - [Matplotlib](https://github.com/Gogo-IGM-BK/Python-Data/tree/Matplotlib)
   - [Seaborn](https://github.com/Gogo-IGM-BK/Python-Data/blob/Seaborn)
-  - Scikit-learn
   - TensorFlow
 - [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
   - Matplotlib Basics
   - Seaborn pour la visualisation statistique
   - Plotly pour des graphiques interactifs
   - Geopandas pour la visualisation de données géospatiales
-  - GeoViews pour la visualisation de données géospatiales interactives
+  - [GeoViews pour la visualisation de données géospatiales interactives](https://github.com/Gogo-IGM-BK/Python-Data/blob/GeoViews/README.md)
 
 
 ## ⚙️ Comment utiliser ce dépôt
