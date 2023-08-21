@@ -4,13 +4,20 @@ Pandas est l'une des bibliothèques les plus populaires pour l'analyse de donné
 
 ### 📘 Résumé :
 
-- 📋 **DataFrame**: Une structure de données bidimensionnelle, semblable à une table de base de données, une feuille de calcul Excel, ou une table de données en R.
-- 🔢 **Série**: Une structure de données unidimensionnelle, similaire à une colonne dans une feuille de calcul.
-- 🔧 **Opérations de base**: La lecture de fichiers (comme CSV, Excel), la manipulation d'index, le tri des données, la sélection/modification/ajout/suppression des données.
-- 📊 **Fonctions de groupage**: Pandas est très utile pour regrouper des données et appliquer des fonctions d'agrégation comme la somme, la moyenne, le maximum, etc.
-- 🔗 **Jointures et fusions**: Avec Pandas, vous pouvez facilement combiner des dataframes, comme vous le feriez avec des bases de données SQL.
-- 🕰 **Manipulation de séries temporelles**: Pandas offre des outils pour traiter des données qui sont indexées par le temps.
-- 🧹 **Nettoyage de données**: Pandas offre de nombreuses fonctions pour nettoyer et prétraiter vos données, y compris la gestion des valeurs manquantes.
+- 📋 **DataFrame**:
+  Une structure de données bidimensionnelle, semblable à une table de base de données, une feuille de calcul Excel, ou une table de données en R.
+- 🔢 **Série**:
+  Une structure de données unidimensionnelle, similaire à une colonne dans une feuille de calcul.
+- 🔧 **Opérations de base**:
+  La lecture de fichiers (comme CSV, Excel), la manipulation d'index, le tri des données, la sélection/modification/ajout/suppression des données.
+- 📊 **Fonctions de groupage**:
+  Pandas est très utile pour regrouper des données et appliquer des fonctions d'agrégation comme la somme, la moyenne, le maximum, etc.
+- 🔗 **Jointures et fusions**:
+  Avec Pandas, vous pouvez facilement combiner des dataframes, comme vous le feriez avec des bases de données SQL.
+- 🕰 **Manipulation de séries temporelles**:
+  Pandas offre des outils pour traiter des données qui sont indexées par le temps.
+- 🧹 **Nettoyage de données**:
+  Pandas offre de nombreuses fonctions pour nettoyer et prétraiter vos données, y compris la gestion des valeurs manquantes.
 
 ### 🚀 Exemples d'utilisation :
 
