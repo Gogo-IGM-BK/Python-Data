@@ -34,7 +34,7 @@ Voici une liste de certains des concepts que nous allons couvrir, avec des liens
 - Librairies Python pour la science des données
   - [NumPy](https://github.com/Gogo-IGM-BK/Python-Data/tree/NumPy)
   - [Pandas](https://github.com/Gogo-IGM-BK/Python-Data/blob/Pandas/README.md)
-  - Matplotlib
+  - [Matplotlib](https://github.com/Gogo-IGM-BK/Python-Data/tree/Matplotlib)
   - Seaborn
   - Scikit-learn
   - TensorFlow
