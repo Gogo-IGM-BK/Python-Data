@@ -15,6 +15,8 @@
   plt.title("Diagramme à secteurs")
   plt.show()
 ```
+<img width="640" alt="image" src="https://github.com/Gogo-IGM-BK/Python-Data/assets/73750131/6b55270b-31ca-4592-8098-c011c8892257">
+
 # 📊 Barres empilées (Stacked bar chart):
 
 ```python
