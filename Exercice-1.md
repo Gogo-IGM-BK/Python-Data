@@ -1,4 +1,4 @@
----
+
 
 # 📖 Exercice : Analyse des ventes d'une boutique en ligne
 
@@ -26,7 +26,7 @@ Date,Produit,Prix_unitaire,Quantité,Ville
 3. Trouver le produit le plus vendu.
 4. Afficher le chiffre d'affaires par ville.
 
----
+
 
 # 🚀 Solution :
 
