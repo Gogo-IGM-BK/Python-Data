@@ -7,7 +7,7 @@ Vous êtes analyste de données pour une grande chaîne de magasins ayant plusie
 
 ### 📋 Données fournies :
 
-- `ventes.csv` :
+- `ventesExo2.csv` :
 
 ```
   Date,Produit,Catégorie,Prix_unitaire,Quantité,Boutique,Ville,Région
