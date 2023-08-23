@@ -10,13 +10,13 @@ Vous travaillez pour une boutique en ligne et on vous fournit un ensemble de don
 - `ventes.csv` :
 
 ```
-Date,Produit,Prix_unitaire,Quantité,Ville
-01/08/2023,Ordinateur,800,5,Paris
-01/08/2023,Chaise,50,10,Lyon
-02/08/2023,Ordinateur,800,3,Marseille
-02/08/2023,Table,200,7,Paris
-03/08/2023,Chaise,50,5,Lyon
-03/08/2023,Ordinateur,800,6,Marseille
+  Date,Produit,Prix_unitaire,Quantité,Ville
+  01/08/2023,Ordinateur,800,5,Paris
+  01/08/2023,Chaise,50,10,Lyon
+  02/08/2023,Ordinateur,800,3,Marseille
+  02/08/2023,Table,200,7,Paris
+  03/08/2023,Chaise,50,5,Lyon
+  03/08/2023,Ordinateur,800,6,Marseille
 ```
 
 ### 🎩 Objectifs :
@@ -34,6 +34,7 @@ Date,Produit,Prix_unitaire,Quantité,Ville
   <summary>🔍 Cliquez pour afficher la solution</summary>
   
   ```python
+
     import pandas as pd
 
     # 1. Lire le fichier CSV et le transformer en DataFrame.
