@@ -1,14 +1,15 @@
-##Exercice : 
+---
 
-Analyse des ventes d'une boutique en ligne
+# 📖 Exercice : Analyse des ventes d'une boutique en ligne
 
+🎯 **Contexte** : 
 Vous travaillez pour une boutique en ligne et on vous fournit un ensemble de données contenant des informations sur les ventes de produits au cours du dernier mois. Votre tâche consiste à analyser ces données pour obtenir des informations utiles pour l'entreprise.
 
-Données fournies :
+### 📋 Données fournies :
 
-` ventes.csv ` :
+- `ventes.csv` :
 
-```
+\```
 Date,Produit,Prix_unitaire,Quantité,Ville
 01/08/2023,Ordinateur,800,5,Paris
 01/08/2023,Chaise,50,10,Lyon
@@ -16,21 +17,23 @@ Date,Produit,Prix_unitaire,Quantité,Ville
 02/08/2023,Table,200,7,Paris
 03/08/2023,Chaise,50,5,Lyon
 03/08/2023,Ordinateur,800,6,Marseille
+\```
 
-```
-
-Objectifs :
+### 🎩 Objectifs :
 
 1. Lire le fichier CSV et le transformer en DataFrame.
 2. Calculer le chiffre d'affaires total.
 3. Trouver le produit le plus vendu.
 4. Afficher le chiffre d'affaires par ville.
 
-## Solution :
+---
+
+# 🚀 Solution :
+
 <details>
-  <summary>Cliquez pour afficher le contenu caché</summary>
+  <summary>🔍 Cliquez pour afficher la solution</summary>
   
-  ```python
+  \```python
     import pandas as pd
 
     # 1. Lire le fichier CSV et le transformer en DataFrame.
@@ -48,7 +51,9 @@ Objectifs :
     # 4. Afficher le chiffre d'affaires par ville.
     chiffre_daffaires_par_ville = df.groupby('Ville')['Chiffre_daffaires'].sum()
     print(chiffre_daffaires_par_ville)
-
-  ```
+  \```
 
 </details>
+
+---
+
