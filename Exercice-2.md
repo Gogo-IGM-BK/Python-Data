@@ -28,6 +28,8 @@ Date,Produit,Catégorie,Prix_unitaire,Quantité,Boutique,Ville,Région
 
 <details>
 
+  <summary>Cliquez pour afficher le contenu caché</summary>
+  
   ```python
   import pandas as pd
 
