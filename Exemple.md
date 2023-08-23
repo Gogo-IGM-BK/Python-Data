@@ -14,6 +14,8 @@ plt.title("Distribution de la longueur du sépale")
 plt.show()
 
 ```
+<img width="640" alt="image" src="https://github.com/Gogo-IGM-BK/Python-Data/assets/73750131/e9ae9e1c-36a0-46de-9dae-76a939ac7376">
+
 # 2. 📈 Box Plot avec Hue (plus avancé):
 Il permet de visualiser la distribution d'une variable catégorique, en montrant des informations comme la médiane, les quartiles et les valeurs aberrantes.
 ```python
@@ -29,6 +31,8 @@ plt.title("Distribution des factures totales par jour et par sexe")
 plt.show()
 
 ```
+<img width="640" alt="image" src="https://github.com/Gogo-IGM-BK/Python-Data/assets/73750131/dd972c55-19fb-4f4f-ba08-243aac85429c">
+
 # 3. 🌐 FacetGrid avec scatter plot (plus avancé):
 
 FacetGrid est un outil pour visualiser la distribution de plusieurs variables à la fois, par rapport à une ou deux variables catégorielles.
@@ -50,6 +54,7 @@ g.fig.suptitle("Relation entre le total de la facture et le pourboire, par sexe 
 plt.show()
 
 ```
+<img width="599" alt="image" src="https://github.com/Gogo-IGM-BK/Python-Data/assets/73750131/24a72bf4-c58d-4e3b-b938-7ecb9bb74876">
 
 
 
