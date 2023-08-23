@@ -1,0 +1,16 @@
+Date;Produit;Catégorie;Prix_unitaire;Quantité;Boutique;Ville;Région
+01/01/2023;Ordinateur;Électronique;800;5;Boutique1;Paris;Île-de-France
+02/01/2023;Chaise;Mobilier;50;10;Boutique2;Lyon;Auvergne-Rhône-Alpes
+02/01/2023;Table;Mobilier;200;7;Boutique3;Marseille;Provence-Alpes-Côte d'Azur
+05/01/2023;Smartphone;Électronique;400;8;Boutique4;Toulouse;Occitanie
+06/01/2023;Canapé;Mobilier;650;3;Boutique1;Paris;Île-de-France
+08/01/2023;Ordinateur;Électronique;800;4;Boutique5;Lille;Hauts-de-France
+10/01/2023;Casque;Électronique;100;15;Boutique3;Marseille;Provence-Alpes-Côte d'Azur
+15/02/2023;Chaise;Mobilier;50;20;Boutique2;Lyon;Auvergne-Rhône-Alpes
+17/02/2023;Table;Mobilier;200;5;Boutique5;Lille;Hauts-de-France
+20/02/2023;Lampe;Mobilier;40;30;Boutique4;Toulouse;Occitanie
+01/03/2023;Smartphone;Électronique;400;6;Boutique3;Marseille;Provence-Alpes-Côte d'Azur
+10/03/2023;Ordinateur;Électronique;800;7;Boutique2;Lyon;Auvergne-Rhône-Alpes
+15/03/2023;Enceinte;Électronique;150;12;Boutique1;Paris;Île-de-France
+20/03/2023;Table;Mobilier;200;9;Boutique5;Lille;Hauts-de-France
+25/03/2023;Canapé;Mobilier;650;4;Boutique4;Toulouse;Occitanie
