@@ -9,7 +9,7 @@ Vous travaillez pour une boutique en ligne et on vous fournit un ensemble de don
 
 - `ventes.csv` :
 
-\```
+```
 Date,Produit,Prix_unitaire,Quantité,Ville
 01/08/2023,Ordinateur,800,5,Paris
 01/08/2023,Chaise,50,10,Lyon
@@ -17,7 +17,7 @@ Date,Produit,Prix_unitaire,Quantité,Ville
 02/08/2023,Table,200,7,Paris
 03/08/2023,Chaise,50,5,Lyon
 03/08/2023,Ordinateur,800,6,Marseille
-\```
+```
 
 ### 🎩 Objectifs :
 
@@ -33,7 +33,7 @@ Date,Produit,Prix_unitaire,Quantité,Ville
 <details>
   <summary>🔍 Cliquez pour afficher la solution</summary>
   
-  \```python
+  ```python
     import pandas as pd
 
     # 1. Lire le fichier CSV et le transformer en DataFrame.
@@ -51,7 +51,7 @@ Date,Produit,Prix_unitaire,Quantité,Ville
     # 4. Afficher le chiffre d'affaires par ville.
     chiffre_daffaires_par_ville = df.groupby('Ville')['Chiffre_daffaires'].sum()
     print(chiffre_daffaires_par_ville)
-  \```
+  ```
 
 </details>
 
