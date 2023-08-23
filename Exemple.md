@@ -45,3 +45,5 @@
   plt.show()
 
 ```
+<img width="640" alt="image" src="https://github.com/Gogo-IGM-BK/Python-Data/assets/73750131/b24eea1e-0b44-47a3-b8c6-b4a109253ffb">
+
