@@ -30,34 +30,34 @@ graph TD
     A --> F
 
 ```
-- [Introduction à Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Introduction_Python)
+- [Introduction à Python](https://github.com/gogosmo/Python-Data/tree/Introduction_Python)
   - Variables et types de données
   - Opérations de base
   - Structures de contrôle : boucles et instructions conditionnelles
   - Fonctions
   - Modules et paquets
-- [Structures de données Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Structures-de-données-Python)
+- [Structures de données Python](https://github.com/gogosmo/Python-Data/tree/Structures-de-données-Python)
   - Listes
   - Tuples
   - Dictionnaires
   - Ensembles
-- [Programmation Orientée Objet avec Python](https://github.com/Gogo-IGM-BK/Python-Data/tree/Programmation_Orientée_Objet_Python)
+- [Programmation Orientée Objet avec Python](https://github.com/gogosmo/Python-Data/tree/Programmation_Orientée_Objet_Python)
   - Classes et Objets
   - Héritage
   - Encapsulation
   - Polymorphisme
 - Librairies Python pour la science des données
-  - [NumPy](https://github.com/Gogo-IGM-BK/Python-Data/tree/NumPy)
-  - [Pandas](https://github.com/Gogo-IGM-BK/Python-Data/blob/Pandas/README.md)
-  - [Matplotlib](https://github.com/Gogo-IGM-BK/Python-Data/tree/Matplotlib)
-  - [Seaborn](https://github.com/Gogo-IGM-BK/Python-Data/blob/Seaborn)
+  - [NumPy](https://github.com/gogosmo/Python-Data/tree/NumPy)
+  - [Pandas](https://github.com/gogosmo/Python-Data/blob/Pandas/README.md)
+  - [Matplotlib](https://github.com/gogosmo/Python-Data/tree/Matplotlib)
+  - [Seaborn](https://github.com/gogosmo/Python-Data/blob/Seaborn)
   - TensorFlow
-- [Visualisation des données avec Python](https://github.com/votre-nom-utilisateur/votre-depot/tree/visualisation-donnees-python)
+- Visualisation des données avec Python
   - Matplotlib Basics
   - Seaborn pour la visualisation statistique
   - Plotly pour des graphiques interactifs
   - Geopandas pour la visualisation de données géospatiales
-  - [GeoViews pour la visualisation de données géospatiales interactives](https://github.com/Gogo-IGM-BK/Python-Data/blob/GeoViews/README.md)
+  - [GeoViews pour la visualisation de données géospatiales interactives](https://github.com/gogosmo/Python-Data/blob/GeoViews/README.md)
 
 
 ## ⚙️ Comment utiliser ce dépôt
